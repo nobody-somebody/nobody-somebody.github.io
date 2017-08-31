@@ -1,0 +1,28 @@
+body, html{
+    margin: 0;
+    padding:0;
+    background: black;
+}
+.block{
+     background-image: url("/img/eVa.jpg");
+	display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    box-shadow: 6px 6px 6px #16f7ea;
+    background-image: url("img/eVa.jpg");
+    background-color: #E74C3C;
+    position: absolute;
+    top: 43%;
+    left: 47%;
+    opacity: 0;
+    background-position: center;
+    
+
+}
+
+canvas{
+    position: absolute;
+    top:0;
+    left:0;
+}

@@ -1,0 +1,87 @@
+.body{
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+background-color: #191919;
+    color: #623249;
+}
+
+header{
+	padding: 20px 0;
+
+}
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    font-weight: 700;
+    margin: 0;
+}
+
+header nav  {
+    display: flex;
+    justify-content: flex-end;
+}
+p.nav-item{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+
+header p  {
+    padding: 0 20px;
+    margin: 0;
+}
+section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+}
+.jumbotron {
+display: flex;
+align-items: center;
+    background-image: url("gallery/texture.png") ;
+    background-repeat: repeat ;
+/*background: linear-gradient(to bottom, #595959 0%,#474747 0%,#000000 0%,#000000 0%,#474747 0%,#2b2b2b 76%,#1c1c1c 91%,#191919 100%);*/
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*background-size: cover;*/
+
+height: 500px;
+text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+#btn {
+    color: #822d55;
+    background-color: rgba(67, 39, 99, 0.9);
+    border-color: #1a568a;
+}
+
+#jumbotronid{
+    background-color: #333;
+}
+
+
+iframe{
+    border: none ;
+    height:250px;
+    width: 100%;
+
+}
+.element-title{
+    font-size: 1em;
+    font-weight: 800;
+}
+
+
+footer .col-sm-8 {
+    display: flex;
+    justify-content:flex-end;
+
+}
+li, ul{
+    list-style: none;
+}
+footer li img {
+    width: 32px;
+    height: 32px;
+}
