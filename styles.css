@@ -1,0 +1,152 @@
+  h1{
+  	color: white;
+  	text-align: center;}
+  	body{
+  		background-color: #89b1b3;
+  	}
+  	div.event>.mainText{
+  		padding: 10px 0  10px 0;
+  		background-color: #f5eada;
+  		border-radius: 0 0 5px 5px ;
+  	}
+  	.navbar-default{
+  		position: fixed;
+  		top: 0px;
+  		width: 100%;
+  	}
+
+
+  .line{
+	height: 1600px;
+	min-height: 250px;
+	width: 3px;
+	background:#b7b7b7;
+	position: absolute;
+	left: 50%;
+	margin: 30px 0;
+	z-index: -1;
+}
+.line-icon{
+
+	width: min-content;
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 10px;
+    left: 50%;
+    right: 50%;
+    margin: 21px -31px;
+    margin-bottom: 350px;
+}
+.start,.end{
+	font-size: 3rem;
+	font-weight: bold;
+	color: white;
+}
+.start{
+	color: white;
+	position: absolute;
+	top: -35px;
+	left: -32px;
+
+}
+
+.end{
+	position: absolute;
+	bottom: -45px;
+	left:-32px;
+}
+.event{
+	padding: 10px;
+	text-align: center;
+    width: 38%;
+    float: left;
+    margin: 5% 5% 0 5%;
+    border-bottom: 2px solid grey;
+}
+/* разобраться с адаптивностью!!!!
+ div.timeline div.event:nth-of-type(even):after {
+    content: '';
+    width: 77px;
+    height: 4px;
+    background: #862890;
+    display: inline-block;
+    vertical-align: middle;
+    align-content: right;
+    position: relative;
+    bottom: 231px;
+    left: 211px;
+
+} */
+
+/* div.timeline div.event:nth-of-type(odd):after {
+    content: '';
+    width: 77px;
+    height: 4px;
+    background: #862890;
+    display: inline-block;
+    vertical-align: middle;
+    align-content: right;
+    position: relative;
+    bottom: 231px;
+    right: 211px;
+    
+} */
+
+.event:nth-of-type(odd){
+	float: right;
+	margin:90px 5% 0 0;
+
+}
+div.timeline div.event:nth-of-type(odd) div.date {
+	background-color: #e74c3c;
+
+}
+
+.date{
+	padding:10px 0 10px 0;
+	color: white;
+	border-radius:10px  10px 0 0   ;
+	background-color: #2DCC70;
+	font-weight: 700;
+	font-size: 2rem;
+	color: 
+
+}
+ 
+/* .icon{
+	font-size: 4rem;
+	color: white;
+} */
+@media (max-width: 575px) {
+	.line-icon{
+		display: none;
+	}
+  .timeline {
+    padding: 30px 0 0 0;
+    margin: 0 0 150px 0;
+  }
+  .event{
+  	
+  	border-bottom: none;
+  	width: 75%;
+  }
+  .timeline .event, .timeline .event:nth-of-type(odd) {
+    float: none;
+    margin: 4% auto;
+  }
+  .timeline .line {
+  	z-index: -1;
+    left: 50%;
+    height: 2495px;
+  }
+  .timeline .event:before, .timeline .event:nth-of-type(odd):before, .timeline .event:after, .timeline .event:nth-of-type(odd):after {
+    display: none;
+  }
+  .timeline .event .icon, .timeline .event:nth-of-type(odd) .icon {
+    left: 128px;
+  }
+  .timeline .event .date {
+    margin: 25px 0 0 0;
+  }
+  
+}
