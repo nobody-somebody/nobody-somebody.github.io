@@ -137,7 +137,7 @@ div.timeline div.event:nth-of-type(odd) div.date {
   .timeline .line {
   	z-index: -1;
     left: 50%;
-    height: 2495px;
+    height: 3005px;
   }
   .timeline .event:before, .timeline .event:nth-of-type(odd):before, .timeline .event:after, .timeline .event:nth-of-type(odd):after {
     display: none;
